@@ -24,11 +24,7 @@ Para executar os desafios, siga os passos abaixo:
   ```bash
   cd desafio1-codigo_secreto
   ```
-3. **Navegue até o diretório da missão que deseja ver**
-```bash
-  cd Missao-01
-```
-4. **Execute o arquivo Python correspondente ao desafio**:
+3. **Execute o arquivo Python correspondente ao desafio exemplo:**:
   ```bash
   python Missao-1.py
   ```
