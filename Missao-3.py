@@ -16,7 +16,7 @@
 print("\033[1;35mSeja bem-vindo ao sistema de notas!\033[m")
 nota_do_aluno = float(input("Digite a sua nota (0-100): "))
 
-if nota_do_aluno >= 90:
+if nota_do_aluno <= 100 and >= 90:
   print("Parabéns, você tirou A! 🎉")
 elif nota_do_aluno >= 80:
   print("Muito bem, você tirou B. 👍")
