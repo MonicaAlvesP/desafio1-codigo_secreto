@@ -30,7 +30,7 @@ Para executar os desafios, siga os passos abaixo:
 ```
 4. **Execute o arquivo Python correspondente ao desafio**:
   ```bash
-  python Missao1.py
+  python Missao-1.py
   ```
 
 Feito com ❤️ por [MA](https://github.com/MonicaAlvesP)
