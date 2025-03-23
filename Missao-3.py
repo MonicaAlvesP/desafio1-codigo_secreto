@@ -16,13 +16,15 @@
 print("\033[1;35mSeja bem-vindo ao sistema de notas!\033[m")
 nota_do_aluno = float(input("Digite a sua nota (0-100): "))
 
-if nota_do_aluno <= 100 and >= 90:
-  print("Parabéns, você tirou A! 🎉")
-elif nota_do_aluno >= 80:
-  print("Muito bem, você tirou B. 👍")
-elif nota_do_aluno >= 70:
-  print("Bom trabalho, você tirou C. 😊")
-elif nota_do_aluno >= 60:
-  print("Fique atento, você tirou D. ⚠️")
+if nota_do_aluno >= 90 and nota_do_aluno <= 100:
+    print("Parabéns, você tirou A! 🎉")
+elif nota_do_aluno >= 80 and nota_do_aluno < 90:
+    print("Muito bem, você tirou B. 👍")
+elif nota_do_aluno >= 70 and nota_do_aluno < 80:
+    print("Bom trabalho, você tirou C. 😊")
+elif nota_do_aluno >= 60 and nota_do_aluno < 70:
+    print("Fique atento, você tirou D. ⚠️")
+elif nota_do_aluno < 60 and nota_do_aluno >= 0:
+    print("Estude um pouco mais, você tirou F. 😔")
 else:
-  print("Estude um pouco mais, você tirou F. 📚")
+    print("Nota inválida! 🚫")
